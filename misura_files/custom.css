@@ -1,0 +1,9 @@
+.t-store__card__sold-out-msg {
+  visibility: hidden;
+}
+.t-store__card__sold-out-msg:after {
+  content: "sold"; 
+  visibility: visible;
+  display: block;
+  color: #0014e8;
+}
